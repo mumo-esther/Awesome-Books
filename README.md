@@ -33,12 +33,9 @@
 - Javascript
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Link to online version of My Portfolio**
-https://mumo-esther.github.io/Desktop-version-Portfolio/
-
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
-Git clone https://github.com/mumo-esther/Desktop-version-Portfolio.git
+Git clone https://github.com/mumo-esther/Awesome-Books.git
 ### Prerequisites
 
 In order to run this project you need:
@@ -48,14 +45,12 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
   cd my-folder
-  git clone https://github.com/mumo-esther/Desktop-version-Portfolio.git
-
+  git clonehttps://github.com/mumo-esther/Awesome-Books.git
 
 ### Run tests
 
 To run tests, run the following command:
   - npx hint .
---->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
