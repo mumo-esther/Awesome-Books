@@ -1,0 +1,31 @@
+* {
+  margin: 20px;
+}
+
+.awesome-books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.awesome-books h1 {
+  font-size: 45px;
+}
+
+button {
+  margin-top: 0;
+  width: fit-content;
+}
+
+.book {
+  border-bottom: 1px solid black;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 40%;
+}
