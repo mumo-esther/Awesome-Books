@@ -7,7 +7,7 @@ const loadBooks = () => {
   if (storedBooks) {
     /* eslint-disable no-const-assign */
     /* eslint-disable no-undef */
-    bookCollection = storedBooks;
+    books = storedBooks;
   }
 };
 
