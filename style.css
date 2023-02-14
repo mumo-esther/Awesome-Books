@@ -1,0 +1,30 @@
+#book-collection {
+  margin: 20px;
+}
+
+#book-collection .book {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 10%;
+  margin: 20px;
+  margin-left: 70px;
+}
+
+#book-collection .book button {
+  cursor: pointer;
+  width: fit-content;
+}
+
+.book-details {
+  justify-content: space-between;
+}
+
+input {
+  margin: 20px;
+  width: 40%;
+  padding: 10px;
+}
