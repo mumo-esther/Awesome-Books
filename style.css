@@ -1,30 +1,120 @@
-#book-collection {
-  margin: 20px;
+body {
+  font-family: Arial, sans-serif;
 }
 
-#book-collection .book {
-  border-bottom: 1px solid black;
+h1 {
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  background-color: #ff4081;
+  color: #fff;
+}
+
+.book-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 20px;
 }
 
-button {
-  width: 10%;
-  margin: 20px;
-  margin-left: 70px;
+.book-form label {
+  margin-right: 10px;
 }
 
-#book-collection .book button {
-  cursor: pointer;
-  width: fit-content;
+#add-button {
+  margin-left: 10px;
 }
 
-.book-details {
+#book-list {
+  width: 90vw;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#books {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid rgb(117, 114, 114);
+  border-radius: 5px;
+}
+
+.book-item {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(66, 65, 65);
 }
 
-input {
-  margin: 20px;
-  width: 40%;
-  padding: 10px;
+.book-item h3 {
+  margin: 0;
+}
+
+.book-item button {
+  cursor: pointer;
+  padding: 0.5em;
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.add-book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em auto;
+  font-size: 30px;
+  max-width: 500px;
+  padding: 1em;
+}
+
+.list {
+  max-width: 500px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  column-gap: 1em;
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+}
+
+button[type="submit"] {
+  padding: 0.5em;
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  width: 100px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #eee;
+}
+
+li.selected {
+  background-color: #ff4081;
+  color: #fff;
 }
