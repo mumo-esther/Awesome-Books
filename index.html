@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <a href="#books">Books List</a>
+      <a href="#new-book">Add Book Form</a>
+      <a href="#contact">Contact Info</a>
+    </nav>
+    <section id="books">
     <h1>All Awesome Books</h1>
     <div id="book-list">
       <ul id="books"></ul>
     </div>
+  </section>
+  <section id="new-book">
     <h2 class="add-book">Add a new book</h2>
-    <div class="book-form">
-      <ul class="list">
+    <div class="book-form" id="book-form">
+      <ul class="list" id="list">
         <li>
           <input type="text" id="title" placeholder="Title" required />
         </li>
@@ -24,7 +32,12 @@
       </ul>
       <button type="submit" id="add-button">Add</button>
     </div>
-
+ </section>
+    <section id="contact">
+      <h1>Contact Info</h1>
+      <p>Phone: 555-555-5555</p>
+      <p>Email: info@awesomebooks.com</p>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>

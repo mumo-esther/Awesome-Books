@@ -2,6 +2,43 @@ body {
   font-family: Arial, sans-serif;
 }
 
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+section {
+  display: none;
+  padding: 20px;
+}
+
+/* Show the active section */
+section:target {
+  display: block;
+}
+
+/* Hide all other sections */
+section:not(:target) {
+  display: none;
+}
+
 h1 {
   margin: 0;
   padding: 1em;
@@ -30,6 +67,7 @@ h1 {
   width: 90vw;
   margin: auto;
   margin-top: 20px;
+  max-height: 50vh;
 }
 
 #books {
@@ -62,7 +100,7 @@ h1 {
   margin-top: 1em;
 }
 
-.add-book {
+.add-book h2 {
   display: flex;
   align-items: center;
   justify-content: center;
