@@ -169,22 +169,23 @@ li.selected {
   text-align: center;
 }
 
-.contact>h2 {
+.contact > h2 {
   font-size: 30px;
   padding: 10px;
 }
 
-.contact>p {
+.contact > p {
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
 }
-footer{
+
+footer {
   display: flex;
   justify-content: center;
   bottom: 0;
   border: 5px solid black;
   border-radius: 8px;
-width: 98%;
-position: absolute;
+  width: 98%;
+  position: absolute;
 }
