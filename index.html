@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>awesome-books</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <html>
-          <h1>Awesome Books</h1>
-          <div class="book-collection" id="book-collection">
-            <!-- books will be displayed here -->
-          </div class>
-          <h2>Add a book</h2>
-          <div class="book-details">
-            <input type="text" id="title" placeholder="Title"><br>
-            <input type="text" id="author" placeholder="Author"><br>
-            <button id="add-book">Add</button>
-          </div>
-        </body>
-      </html>         
-<script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Collection</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>All Awesome Books</h1>
+    <div id="book-list">
+      <ul id="books"></ul>
+    </div>
+    <h2 class="add-book">Add a new book</h2>
+    <div class="book-form">
+      <ul class="list">
+        <li>
+          <input type="text" id="title" placeholder="Title" required />
+        </li>
+        <li>
+          <input type="text" id="author" placeholder="Author" required />
+        </li>
+      </ul>
+      <button type="submit" id="add-button">Add</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
